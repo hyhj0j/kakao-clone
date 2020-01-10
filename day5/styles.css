@@ -37,8 +37,8 @@ button:hover{
     background-size: cover;
 }
 
-.img:hover{
-    animation: turnAndBorder ease-in-out forwards;
+button:hover + .img-ani{
+    animation: 0.5s turnAndBorder ease-in-out forwards;
 }
 
 
