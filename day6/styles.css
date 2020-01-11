@@ -1,0 +1,31 @@
+.box {
+  margin: 50px;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box__one {
+  background-color: rgb(19, 172, 159);
+}
+
+.box__two {
+  background-color: rgb(19, 80, 172);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  margin: 8px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.bar {
+  width: 2%;
+  height: 10%;
+  margin: 3px;
+  background-color: white;
+}
