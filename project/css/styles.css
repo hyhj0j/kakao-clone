@@ -1,0 +1,19 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic:400,800&display=swap&subset=korean");
+@import "status-bar.css";
+@import "header.css";
+@import "nav-bar.css";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  padding: 10px 20px;
+  color: #020202;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+a {
+  color: inherit;
+}
