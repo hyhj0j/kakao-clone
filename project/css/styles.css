@@ -7,10 +7,12 @@
 @import "friends.css";
 @import "find.css";
 @import "more.css";
+@import "settings.css";
 
 * {
   box-sizing: border-box;
 }
+
 body {
   background-color: white;
   padding: 10px 20px;
