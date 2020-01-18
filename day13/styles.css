@@ -117,5 +117,6 @@ main {
   background-color: rgb(196, 196, 196);
   border-radius: 10px;
   left: 50%;
+  bottom: 1%;
   transform: translate(-50%, -50%);
 }
