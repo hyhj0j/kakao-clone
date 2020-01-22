@@ -6,13 +6,12 @@
 
 .friend .friend__avatar {
   width: 50px;
-  border-radius: 35%;
+  border-radius: 38%;
 }
 
 .friend__avatar.g-avatar {
   width: 70px;
 }
-
 .friend__avatar.m-avatar {
   width: 60px;
 }
@@ -26,14 +25,13 @@
   margin-right: 15px;
 }
 
-.friend__content .friend__username {
+.friend__content .friend__name {
   display: block;
-  font-weight: 600;
   margin-bottom: 5px;
 }
 
-.friend__content .friend__bottom-text,
 .friend__content .friend__status,
+.friend__content .friend__bottom-text,
 .friend .chat__timestamp {
   opacity: 0.6;
 }
@@ -48,10 +46,10 @@
 }
 
 .friend .friend__now-listening {
-  border: 1px solid rgb(41, 196, 93);
+  border: 2px dotted #d3989d;
   padding: 5px 10px;
   border-radius: 15px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .friend__now-listening span {
@@ -59,7 +57,7 @@
 }
 
 .friend__now-listening i {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .friend__add-btn {

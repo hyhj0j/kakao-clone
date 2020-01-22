@@ -1,12 +1,13 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 30px;
 }
 
 .header .header__title {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .header .header__icon {

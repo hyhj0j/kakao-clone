@@ -15,6 +15,9 @@
 
 .find .header-btn__title {
   display: block;
+}
+
+.find .header-btn__title {
   margin-top: 20px;
   font-size: 14px;
 }

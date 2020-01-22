@@ -4,24 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script
-      src="https://kit.fontawesome.com/d2432f87f0.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="css/styles.css" class="" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span class="status-bar__clock">13:54</span>
+        <span class="status-bar__clock">13:54 </span>
       </div>
       <div class="status-bar__column">
-        <i class="far fa-clock"></i>
+        <i class="fas fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
         <i class="fas fa-battery-full"></i>
-        <span class="battery-level">100%</span>
       </div>
     </div>
     <header class="header">
@@ -33,86 +33,142 @@
           <i class="fas fa-search"></i>
         </span>
         <span class="header__icon">
-          <a href="setting.html">
+          <a href="settings.html">
             <i class="fas fa-cog"></i>
           </a>
         </span>
       </div>
     </header>
-
     <main class="friends">
       <header class="friends__header">
         <div class="friends__friend friend">
           <div class="friend__column">
-            <img
-              src="images/avatar.jpg"
-              alt=""
-              class="g-avatar friend__avatar"
-            />
+            <img src="images/avatar.png" class="g-avatar friend__avatar" />
             <div class="friend__content">
-              <span class="friend__username">Yeji Han</span>
-              <span class="friend__status">I'm hungry</span>
+              <span class="friend__name">
+                윤세리
+              </span>
+              <span class="friend__status">
+                CEO of Seri's choice
+              </span>
             </div>
           </div>
-          <div class="friend__column"></div>
         </div>
       </header>
       <div class="friends__plus">
         <h5 class="friends__title">Plus friend</h5>
         <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpg" alt="" class="friend__avatar" />
+            <img src="images/img2.png" class="friend__avatar" />
             <div class="friend__content">
-              <span class="friend__username">Plus Friend</span>
+              <span class="friend__name">
+                서단
+              </span>
             </div>
           </div>
-          <div class="friend__column"></div>
         </div>
       </div>
-
       <ul class="friends__list">
         <h5 class="friends__title">Friends 14</h5>
-        <li class="friends__friend friend">
+        <li class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/eunwoo.jpg" alt="" class="friend__avatar" />
+            <img src="images/img1.png" class="friend__avatar" />
             <div class="friend__content">
-              <span class="friend__username">Eunwoo cha</span>
-              <span class="friend__status">chilling *** </span>
+              <span class="friend__name"> 리정혁 </span>
+              <span class="friend__status">
+                피아노
+              </span>
             </div>
           </div>
           <div class="friend__column">
             <div class="friend__now-listening">
-              <span>ASTRO - I love yeji</span>
-              <i class="fas fa-play"></i>
+              <span>
+                백예린 - 다시 난 여기
+                <i class="fas fa-play"></i>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/img3.png" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name"> 구승준 </span>
+              <span class="friend__status">
+                나 찾아봐라 메롱✈
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/img7.png" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name"> 표치수 </span>
+              <span class="friend__status">
+                잘가라 애미나이!
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/img5.png" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name"> 박광범 </span>
+              <span class="friend__status">
+                중대장 동무를 향한 으ㅣ리.
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/img6.png" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name"> 김주먹 </span>
+              <span class="friend__status">
+                남조선 드라마 추천 받슴다
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>
+                천국의계단OST
+                <i class="fas fa-play"></i>
+              </span>
             </div>
           </div>
         </li>
       </ul>
     </main>
-
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
-          <a href="./friends.html" class="nav__list-link">
-            <i class="far fa-user"></i>
-          </a>
+          <a href="friends.html" class="nav__list-link">
+            <i class="fas fa-user"></i
+          ></a>
         </li>
         <li class="nav__list-item">
-          <a href="./index.html" class="nav__list-link">
+          <a href="index.html" class="nav__list-link">
             <i class="far fa-comment"></i>
           </a>
         </li>
         <li class="nav__list-item">
-          <a href="./find.html" class="nav__list-link">
+          <a href="find.html" class="nav__list-link">
             <i class="fas fa-search"></i>
           </a>
         </li>
         <li class="nav__list-item">
-          <a href="./more.html" class="nav__list-link">
+          <a href="more.html" class="nav__list-link">
             <i class="fas fa-ellipsis-h"></i>
           </a>
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small! </span>
+    </div>
   </body>
 </html>
