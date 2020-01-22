@@ -3,12 +3,12 @@
   padding: 30px 0px;
 }
 
-.settings__setting .settings__icon {
+.settings__setting .setting-icon {
   font-size: 20px;
   margin-right: 20px;
 }
 
-.settings__setting .settings__title {
+.settings__setting .settings-title {
   font-size: 22px;
   font-weight: 300;
 }

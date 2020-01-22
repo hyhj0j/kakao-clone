@@ -9,6 +9,6 @@
   font-size: 14px;
 }
 
-.status-bar .battery-level {
+.status-bar .status-bar__battery-level {
   margin-left: 5px;
 }

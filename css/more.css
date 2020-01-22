@@ -6,16 +6,9 @@
   align-items: center;
 }
 
-.more__btn-list .more__btn {
-  margin-right: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
-}
-
+.more__btn-list .more__btn,
 .more .suggestion {
-  margin-right: 20px;
+  margin-right: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,7 +37,7 @@
 
 .suggestion .suggestion__icon {
   background-color: #fce006;
-  padding: 8px;
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,6 +45,6 @@
 }
 
 .suggestion__icon i {
-  font-size: 20px;
+  font-size: 28px;
   color: white;
 }
